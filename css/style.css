@@ -1,1 +1,53 @@
-html { color: #c00; }
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+}
+header {
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(124deg, rgba(2,0,36,1) 0%, rgba(92,9,121,1) 100%);
+    color: #fff;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.51);
+}
+header p {
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+}
+header a {
+    text-decoration: none;
+}
+header ul {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+header ul li {
+    display: flex;
+}
+header ul a,
+.bigbutton {
+    padding: 1em;
+    border-radius: 1em;
+    background: rgb(67,120,40);
+    background: linear-gradient(180deg, rgba(67,120,40,1) 0%, rgba(85,173,99,1) 100%);
+}
+header ul a:hover,
+header ul a:active,
+header ul a:focus,
+.bigbutton:hover,
+.bigbutton:active,
+.bigbutton:focus {
+    background: rgb(35,69,18);
+    background: linear-gradient(180deg, rgba(35,69,18,1) 0%, rgba(21,70,29,1) 100%);
+}
+header, main {
+    padding: 1em;
+}
+header a {
+    color: #fff;
+}
