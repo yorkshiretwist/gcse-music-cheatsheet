@@ -51,3 +51,6 @@ header, main {
 header a {
     color: #fff;
 }
+img {
+    max-width: 100%;
+}
